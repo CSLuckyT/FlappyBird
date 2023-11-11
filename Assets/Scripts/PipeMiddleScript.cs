@@ -34,8 +34,7 @@ public class PipeMiddleScript : MonoBehaviour
         //Below also works
         
         if (collision.gameObject.layer==3)
-        {
-            //Debug.Log("Bird collided with pipe middle");
+        {            
             logic.addScore(null);
         }
         
