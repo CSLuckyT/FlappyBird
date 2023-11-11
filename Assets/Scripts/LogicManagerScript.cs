@@ -30,7 +30,7 @@ public class LogicManagerScript : MonoBehaviour
                 scoreSFX.Play();
             }
         }        
-        //Debug.Log("Score after increment: " + playerScore);
+        
         scoreText.text = playerScore.ToString();
     }
     public void restartGame()
